@@ -1,0 +1,4 @@
+@import "tailwindcss";
+
+/* valfritt: liten bakgrund så du ser att Tailwind är igång */
+html, body, #root { height: 100%; background: #0a0a0a; }
