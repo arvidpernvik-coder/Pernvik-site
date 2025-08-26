@@ -9,7 +9,6 @@ const FORM_ENDPOINT = "https://formsubmit.co/ajax/arvid@pernvikproperties.com"; 
 
 // Publika bildvägar (lägg filerna i /public)
 const HERO_IMG_URL = "/hero-pernvik.png"; // din hero‑bild
-const EXTRA_TOP_IMG = "/hero-extra-top.png"; // extra bild under hero
 const EXTRA_UNDER_HOW_IMG = "/hero-extra-under-how.png"; // extra bild under "Så hjälper vi dig"
 
 // Fallback‑gradient om bilden saknas
@@ -713,7 +712,7 @@ function GameModal({ onClose, openContact }: { onClose?: () => void; openContact
   const [won, setWon] = useState(false);
   const [lost, setLost] = useState(false);
   const canvasRef = React.useRef<HTMLCanvasElement | null>(null);
-  const reqRef = React.useRef<number>();
+  const reqRef = React.useRef<number>(0);
 
   React.useEffect(() => {
     const canvas = canvasRef.current!;
