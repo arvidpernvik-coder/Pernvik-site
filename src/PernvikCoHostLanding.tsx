@@ -163,19 +163,19 @@ export default function PernvikCoHostLanding() {
           </div>
 
         {/* Rubrik + bild bredvid varandra */}
-<div className="mt-5 flex flex-col lg:flex-row items-center justify-center lg:justify-start gap-8">
-  <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight text-center lg:text-left">
+<div className="mt-5 flex flex-col items-center justify-center gap-4">
+  <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight text-center">
     Co-hosting för ägare som vill ha{" "}
     <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-zinc-400">
       intäkter utan krångel
     </span>
   </h1>
-  <img
-    src="/hero-icon.jpg"
-    alt="Hero bild"
-    className="h-64 w-64 object-cover rounded-xl"
-  />
+
+  <p className="mt-5 text-lg text-zinc-200/90 max-w-2xl mx-auto">
+    Vi sköter annonsering, prissättning, städning och gästservice. Du behåller majoriteten av intäkterna.
+  </p>
 </div>
+
 
 
 
